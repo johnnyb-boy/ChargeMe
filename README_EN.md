@@ -12,7 +12,7 @@ This app is made for some **Numworks calculator** who have a error that cut the 
 This Extra-App was made and compiled in C and by only using the ```<eadk.h>``` official librairy by Numworks / Epsilon.
  
 # 
-### [Click Here to download the app]()
+### [Click Here to download the app](https://github.com/johnnyb-boy/ChargeMe/releases/download/1/ChargeMe_EN.nwa)
 (or look in releases)
 #
 ### How to install it?
