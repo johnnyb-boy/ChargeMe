@@ -12,6 +12,9 @@ int main(int argc, char *argv[]) {
   eadk_display_draw_string("La calculatrice est allumer.",(eadk_point_t){0, 0}, false, eadk_color_white, eadk_color_black);
   //eadk_display_draw_string("The calculator is ON.",(eadk_point_t){0, 0}, false, eadk_color_white, eadk_color_black);
   while (1) {
-    eadk_timing_msleep(100);
+    eadk_keyboard_state_t keyboard = eadk_keyboard_scan();
+    if ((eadk_keyboard_key_down(keyboard, eadk_key_back) && eadk_keyboard_key_down(keyboard, eadk_key_home))) {
+      break;
+    }
   }
 }
